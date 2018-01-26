@@ -25,7 +25,7 @@ public class ViewController {
         return mav;
     }
     
-    
+    //sssss
     @RequestMapping(value = "/login",produces = {"text/html;charset=UTF-8;"})
     @ResponseBody
     public String login() {
