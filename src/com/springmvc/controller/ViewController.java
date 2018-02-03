@@ -25,16 +25,18 @@ public class ViewController {
         return mav;
     }
     
-    //sssss
+    
     @RequestMapping(value = "/login",produces = {"text/html;charset=UTF-8;"})
     @ResponseBody
-    public String login() {
-    	JSONObject jsonObject = new JSONObject();
-    jsonObject.put("msg","ccc");
-     return jsonObject.toString();   
-     
-     
-     
+    public String login() 
+    {
+	    	JSONObject jsonObject = new JSONObject();
+	    jsonObject.put("1","a");
+	    jsonObject.put("2","b");
+	    jsonObject.put("3","c");
+	    jsonObject.put("4","d");
+	    jsonObject.put("5","e");
+	    return jsonObject.toString();   
     }
     
     

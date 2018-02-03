@@ -38,15 +38,18 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     
     <style>
         body {
-            background : url(${contextPath}/resources/img/bk.jpg);
+           background : url(${contextPath}/resources/img/bk.jpg);
             background-size : 100% 100%;
+            
         }
     </style>
     <body>
        <form>
-	     username:<input id="id1" type="text" name="username"/><br>
-	     password:<input id="id2" type="password" name="password"/><br>
+	  <%--  // username:<input id="id1" type="text" name="username"/><br>
+	    // password:<input id="id2" type="password" name="password"/><br> --%>
 	    <input id="id3" type="button" value="登录" onclick="login()"/><br>
 	  </form>
+	  
+	  <embed src="<%=basePath %>/resources/img/storm.mp4"; autostart="true" loop="true" width=100% height=100% >
     </body>
 </html>
